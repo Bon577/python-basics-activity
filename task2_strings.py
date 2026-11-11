@@ -6,7 +6,7 @@ Run the checks with:  python -m unittest tests.test_tasks.Task2Strings -v
 
 def greet(name):
     """Return 'Hello, <name>!' using an f-string.  greet('Ana') -> 'Hello, Ana!'"""
-    return f"Hello, {name}! "
+    return f"Hello, {name}!"
 
 
 def clean(text):
